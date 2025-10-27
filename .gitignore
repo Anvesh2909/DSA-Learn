@@ -1,28 +1,15 @@
-### IntelliJ IDEA ###
+# IntelliJ
+.idea/
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/test/**/bin/
+# Mac
+.DS_Store
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
+# VS Code
 .vscode/
 
-### Mac OS ###
-.DS_Store
+# Ignore compiled stuff, not source
+*.class
+*.jar
+*.war
+*.ear
